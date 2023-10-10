@@ -1,5 +1,5 @@
 {{ define "main_content" }}
-<main class="row-item small-full {{ if eq .Params.showsidebar true }}medium-two-thirds{{ end }}" {{ if (eq .Section "post") }}itemscope itemtype="http://schema.org/Blog"{{ end }}>
+<main class="row-item small-full" {{ if (eq .Section "post") }}itemscope itemtype="http://schema.org/Blog"{{ end }}>
   <article id="post-article" {{ if (eq .Section "post") }}itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting"{{ else }}itemscope itemtype="http://schema.org/Article"{{ end }}{{ if .Params.tags }} itemref="keywords desc"{{ else }} itemref="desc"{{ end }}>
     <header id="page-header">
       <h1 itemprop="headline">{{ .Title }}</h1>
