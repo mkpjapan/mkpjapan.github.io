@@ -1,5 +1,6 @@
 ---
 linktitle: Welcome
+layout: default
 menu:
   main
 hide_list: true
