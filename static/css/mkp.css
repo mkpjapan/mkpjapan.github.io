@@ -1,5 +1,12 @@
+.hero {
+  background-image: url("/static/images/cynthia-magana-mFPJXEQfb9M-unsplash.jpg");
+  background-position: top center;
+  background-size: cover;
+}
 
-
+.hero .nav a.navbar-item {
+  color: white!important;
+}
 
 h1 { font-size: 2.6rem; }
 h2 { font-size: 2.1rem; }

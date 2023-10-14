@@ -1,6 +1,6 @@
 ---
 linktitle: Welcome
-layout: default
+layout: home
 ---
 
 # Imagine
