@@ -21,4 +21,4 @@ MKP Open Men's Groups are designed as an entry level group to provide a place fo
 
 This group is not a good fit for men who are actively engaged in domestic violence, alcoholism, recreational drug use, or experiencing suicidal ideation.
 
-<a href="https://forms.gle/L64N8goVx42bHz7F7">Register here!</a>
+{{% button href="https://forms.gle/L64N8goVx42bHz7F7" %}}Register here!{{% /button %}}
