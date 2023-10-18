@@ -40,7 +40,6 @@ a.active {
 
 a {
     color: #{{ site.data.template.color.tertiary }};
-
 }
 
 a:hover,
