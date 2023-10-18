@@ -11,12 +11,14 @@
     {{- if (not (eq ($.Scratch.Get "desc") "")) -}}
     <meta name="description" itemprop="description" content="{{ replace ($.Scratch.Get "desc") "\n" " " }}" id="desc">
     {{- end -}}
-    {{ .Hugo.Generator }}
-    {{- if .RSSLink -}}<link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} Feed" href="{{ .RSSLink }}">{{ end }}
+    {{ hugo.Generator }}
+    {{- with site.Home.OutputFormats.Get "rss" -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
+    {{- end }}
     {{- if .Params.tags -}}
       <meta name="keywords" itemprop="keywords" content="{{ delimit .Params.tags "," }}" id="keywords">
     {{- end -}}
-    <link rel="canonical" href="{{ .URL | absURL }}">
+    <link rel="canonical" href="{{ .Permalink | absURL }}">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="prefetch stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     {{ if $.Site.Params.hashover }}<link rel="prefetch stylesheet" type="text/css" href="{{ "hashover/comments.css" | absLangURL }}">{{ end }}
     <link rel="prefetch stylesheet" type="text/css" href="{{ "styles.css" | relLangURL }}">
@@ -57,9 +59,7 @@
         </nav>
       </div>
       <div id="main-container" class="row" role="main" itemprop="mainContentOfPage">
-        {{ if .Site.Params.leftsidebar }}{{ partial "sidebar.html" . }}{{ end }}
         {{ block "main_content" . }}{{ end }}
-        {{ if (not .Site.Params.leftsidebar) }}{{ partial "sidebar.html" . }}{{ end }}
       </div>
       <footer class="row">
         <div class="small-full medium-half row-item small-text-center medium-text-left"><small>&copy; {{now.Format "2006"}} <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization"><span itemprop="name">{{ .Site.Title }}</span></span>.</small></div>
