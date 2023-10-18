@@ -1,20 +1,12 @@
 # website for ManKind Project Japan
 
-Site for ManKind Project Japan, currently at https://www.mkpjapan.org/
+New site for ManKind Project Japan, currently at https://mkpjapan.github.io/
 
 ## Requirements
+Setup Jekyll based on github pages:
+[Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll)
 
-[Hugo](https://gohugo.io/)
+## Running the Site
 
-## Getting started
-
-1. install hugo 0.119.0
-1. clone this repository
-1. update the submodule with the theme: `git submodule update --init --recursive`
-1. `hugo server`
-
-## Docker development
-
-- Download and install [Docker](https://www.docker.com/)
-- Run `docker compose -f docker-compose.yml up -d --build`
-- Open your browser at [http://localhost:1313/](http://localhost:1313/)
+1. ~/.../GitHub/mkpjapan.github.io>bundle exec jekyll serve --incremental
+2. Go to http://127.0.0.1:4000/
