@@ -22,12 +22,12 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.75;
 }
 
 p.large {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 a,
@@ -39,14 +39,15 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.tertiary }};
+    color: #{{ site.data.template.color.primary }};
+
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.tertiary }};
+    color: #{{ site.data.template.color.secondary }};
 }
 
 h1,
