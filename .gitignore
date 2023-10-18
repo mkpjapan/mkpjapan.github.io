@@ -1,3 +1,5 @@
 themes
 public
 _site
+.jekyll-metadata
+Gemfile.lock
