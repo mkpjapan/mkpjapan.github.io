@@ -1,15 +1,17 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <link rel="stylesheet" href="static/css/mkp.css">
-  </head>
-  <body>
+<!DOCTYPE html>
+<html>
 
-{{content}}
+  {% include head.html %}
 
-  </body>
+
+    <body id="page-top" class="index">
+
+    {% include header.html %}
+    {% include join.html %}
+    {% include about.html %}
+    {% include agreements.html %}
+    {% include footer.html %}
+    {% include js.html %}
+
+    </body>
 </html>
