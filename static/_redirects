@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://mkpjapan.netlify.com/* https://www.mkpjapan.org/:splat 301!
