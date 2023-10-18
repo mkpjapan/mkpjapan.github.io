@@ -183,6 +183,13 @@ fieldset[disabled] .btn-xl.active {
     color: #{{ site.data.template.color.primary }};
 }
 
+.navbar-default .navbar-brand-image {
+    height:1.5em;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
@@ -256,7 +263,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand-image {
-        height: 40px;
+        height:2em;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
