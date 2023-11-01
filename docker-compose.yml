@@ -1,10 +1,18 @@
-version: "3.9"
+version: '3'
+
 services:
-  tokyo-mens-group:
-    image: klakegg/hugo:0.42.2
-    container_name: tokyo-mens-group
-    command: server
+  jekyll:
+    image: jekyll/jekyll:latest
+    command: jekyll serve --watch --force_polling --verbose
     ports:
-      - 1313:1313
+      - 4000:4000
     volumes:
-      - $PWD:/src
+      - .:/srv/jekyll
+
+  vscode:
+    image: codercom/code-server
+    command: --auth none
+    ports:
+      - 8080:8080
+    volumes:
+      - .:/home/coder/project
