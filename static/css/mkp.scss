@@ -43,7 +43,7 @@ header .intro-text {
     text-align: center;
     color: #fff;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/static/images/site/pixabay.sky.jpg');
-    background-position: top;
+    background-position: top center;
     background-repeat: none;
     width: 100%;
     min-height: 500px;
@@ -51,15 +51,15 @@ header .intro-text {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
 
-    .join-container-intro-text {
-        padding-top: 200px;
-        padding-bottom: 50px;
-        text-transform: none;
-        font-family: {{ site.data.template.font.primary }};
-        font-size: 48px;
-        font-weight: 600;
-    }
+.join-container-intro-text {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-transform: none;
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 48px;
+    font-weight: 600;
 }
 
 img.hover-shadow {
