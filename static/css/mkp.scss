@@ -82,3 +82,35 @@ img.hover-shadow {
     }
 }
 
+.testimonial {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border:1px solid;
+    transition: 0.3s;
+    width:80%;
+    height:100%;
+    min-height: 400px;
+    padding:100px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+
+/* carousel overrides*/
+.carousel {
+    min-height:400px;
+
+    .carousel-indicators {
+        /* move the indicators to the left. */ 
+        bottom:-50px;
+        text-align: left;
+
+        li {
+            border: 1px solid;
+        }
+
+        li.active {
+            background-color:#{{ site.data.template.color.primary }};
+        }
+    }
+}
