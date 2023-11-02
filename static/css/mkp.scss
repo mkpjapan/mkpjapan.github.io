@@ -91,26 +91,5 @@ img.hover-shadow {
     height:100%;
     min-height: 400px;
     padding:100px;
-    margin-left: 10%;
-    margin-right: 10%;
     text-align: center;
-}
-
-/* carousel overrides*/
-.carousel {
-    min-height:400px;
-
-    .carousel-indicators {
-        /* move the indicators to the left. */ 
-        bottom:-50px;
-        text-align: left;
-
-        li {
-            border: 1px solid;
-        }
-
-        li.active {
-            background-color:#{{ site.data.template.color.primary }};
-        }
-    }
 }

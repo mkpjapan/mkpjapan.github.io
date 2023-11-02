@@ -1,53 +1,90 @@
 <section id="testimonials">
-    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#testimonials-carousel" data-slide-to="1"></li>
-            <li data-target="#testimonials-carousel" data-slide-to="2"></li>
-        </ol>
+    <div class="col-md-12">
+        <h2 class="section-heading text-center">Testimonials</h2>
+        <h3 class="section-subheading text-muted text-center">For confidentiality, some details are omitted</h3>
+    </div>
 
-        <!-- Slide Wrapper -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <div class="testimonial">
-                    <h4>Testimonial</h4>
-                    <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                    <div class="source">		
-                        <span>Testimonial Source</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="testimonial">
-                    <h4>Testimonial</h4>
-                    <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                    <div class="source">		
-                        <span>Testimonial Source</span>
-                    </div>
-                </div>
-            </div>
-
-            <div class="item">
-                <div class="testimonial">
-                    <h4>Testimonial</h4>
-                    <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                    <div class="source">		
-                        <span>Testimonial Source</span>
-                    </div>
+    <div class="testimonials-carousel">
+        <div>
+            <div class="testimonial">
+                <h4>Testimonial</h4>
+                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+                <div class="source">		
+                    <span>Testimonial Source</span>
                 </div>
             </div>
         </div>
 
-        <!-- Left and right controls -->
-        <a class="left carousel-control" href="#testimonials-carousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#testimonials-carousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <div>
+            <div class="testimonial">
+                <h4>Testimonial</h4>
+                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+                <div class="source">		
+                    <span>Testimonial Source</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="testimonial">
+                <h4>Testimonial</h4>
+                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+                <div class="source">		
+                    <span>Testimonial Source</span>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="testimonial">
+                <h4>Testimonial</h4>
+                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+                <div class="source">		
+                    <span>Testimonial Source</span>
+                </div>
+            </div>
+        </div>
     </div>
+    <div style="text-align:right;margin-right:25px;margin-top:25;">
+        <span class="prev glyphicon glyphicon-chevron-left"></span>
+        <span class="next glyphicon glyphicon-chevron-right"></span>
+    </div>
+
+    <script src="{{ '/static/js/jquery-1.11.0.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/static/slick/slick.min.js' | prepend: site.baseurl }}"></script>
+
+    <script>
+        $('.testimonials-carousel').slick({
+        centerMode: true,
+        dots:true,
+        centerPadding: '60px',
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay:true,
+        autoplaySpeed:2000,
+        prevArrow: $('.prev'),
+        nextArrow: $('.next'),
+        appendDots:$('.dots'),
+        responsive: [
+            {
+            breakpoint: 768,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+            }
+            },
+            {
+            breakpoint: 480,
+            settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+            }
+            }
+        ]
+        });
+    </script>
 </section>
