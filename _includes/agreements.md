@@ -1,5 +1,18 @@
 
 # Agreements
+
+### Mission and Purpose
+
+The purpose of the ManKind Project is to create a safer world by growing “better” men. We do this by training men and supporting them in groups. The MKP Japan mission is to create a world where men act on their individual and shared responsibility for the future of humanity by initiating and supporting men on a path of emotional maturity, spiritual awareness, and deepening community.
+
+### Our Vision
+
+Our vision is a safe world where all men are brothers, in relationship with one another… a world where conflicts are resolved peacefully; where torture, genocide, domestic violence, and senseless war are only entries in the history books… where men are fully accountable and take responsibility for their decisions… where men stand tall and proud to be men, secure in their role and deeply committed to nurturing one another, their families, their communities, and their planet.
+
+### Our Core Values
+
+Accountability * Authenticity * Compassion * Generosity * Integrity * Intercultural Competency * Leadership * Respect
+
 ### Confidentiality
 
 What I say and do here is confidential. I will only share my own experience and personal insights. I will not share another man’s words, actions, or identity outside this group. If I wish to mention anything specific a man shared in a previous meeting, I will ask his permission first.
