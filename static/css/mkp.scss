@@ -12,10 +12,54 @@ header .intro-text {
 	}
 }
 
-.join-img {
+.benefits-text-header {
+    position: relative;
+    font-size: 1.5em;
+    padding:5px;
+    border-radius: 10px;
+    overflow: hidden;
+    border:1px solid #{{ site.data.template.color.primary }};
+    background-color: #{{ site.data.template.color.primary }};
+}
+
+.benefits-text {
+    position: relative;
+    padding: 5 5;
+}
+
+.benefits-img {
     width: 70%;
+    height: 100%;
     padding: 5 5;
     border-radius: 8px;
+
+    .benefits-img-text {
+        padding: 5 5;
+        text-align: center;
+    }
+}
+
+.join-container {
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('{{ site.baseurl }}/static/images/site/pixabay.sky.jpg');
+    background-position: top;
+    background-repeat: none;
+    width: 100%;
+    min-height: 500px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+    .join-container-intro-text {
+        padding-top: 200px;
+        padding-bottom: 50px;
+        text-transform: none;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 48px;
+        font-weight: 600;
+    }
 }
 
 img.hover-shadow {
