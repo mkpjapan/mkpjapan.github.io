@@ -1,27 +1,38 @@
-TL;DR: Confidential listening; just a place to get things off your chest.
-Come talk about whatever is important to you, and be heard by men who
-care.
+# About Tokyo Men's Circle
+- Tokyo men’s circle is part of <ins>**[The Mankind Project (MKP)](https://mankindproject.org/)**</ins>. We support men in finding their authentic selves and living their mission in the world.
+- MKP Open Men’s Groups are designed as an entry level group. They provide a place for men to experience sharing deeply and personally, of themselves. 
+- Some of the men in the Tokyo circle have attended a weekend experiential training called <ins>**[New Warrior Training Adventure](https://mankindproject.org/new-warrior-training-adventure/)**</ins>. The weekend training is normally a prerequisite for sitting in circle. But there are no trainings in Japan, so we are open to new men coming to sit with us.
 
-Tokyo men's circle is part of <ins>**[The Mankind Project](https://mankindproject.org/)**</ins> which supports men in finding their
-authentic selves and living their mission in the world.
+# OUR PURPOSE
+- To create a **safer world** by **growing “better” men**. 
+- We do this by **training** men and **supporting** them in groups. 
 
-Some of the men in the Tokyo circle have attended a weekend
-experiential training called
-<ins>**[New Warrior Training Adventure](https://mankindproject.org/new-warrior-training-adventure/)**</ins>.
-The
-weekend training is normally a prerequisite for sitting in circle, but
-there are no trainings in Japan, so we are open to new men coming to
-sit with us.
+# OUR MISSION 
+- To **create a world** where men act on their individual and shared responsibility for the future of humanity. 
+- We do this by **initiating and supporting men** on a path of **emotional maturity, spiritual awareness, and deepening community**.
 
+# OUR VISION
 
-Everything spoken in the circle is confidential within the circle.  
+Our vision is a **safe world** 
+- where **all men are brothers**, in relationship with one another … 
+- where **conflicts are resolved peacefully**; where torture, genocide, domestic violence, and senseless war are only entries in the history books …
+- where men are **fully accountable** and take responsibility for their decisions …
+- where men **stand tall and proud to be men**, secure in their role and deeply committed to nurturing one another, their families, their communities, and their planet.
 
-If you attend, you will have a chance to speak about any issue that is
-challenging in your life, and have a chance to feel some of the
-emotions that are (possibly lurking) behind the challenge. All
-emotions are welcome; we create a safe space for men to speak.
+# OUR CORE VALUES
+Accountability * Authenticity * Compassion * Generosity * Integrity * Intercultural Competency * Leadership * Respect
 
-If you are interested in attending, read and agree to the
-<ins>**[Agreements](#agreements)**</ins> then send an email.
+What we offer
+- A chance to **speak about any issue** that is challenging in your life. 
+- A chance to **feel any emotions** that may be lurking behind the challenge. 
+- **Confidentiality**: Everything spoken within the circle is confidential.
+- **Connection with men** from next door, across the country, or around the world. 
 
+If you are interested in attending
+1.	Read and agree to the <ins>**[agreements]({{ '/agreements' | prepend: site.baseurl }})**</ins>. 
+2.	Use the join button <ins>**[here]({{ '/#' | prepend: site.baseurl }})**</ins> 
 
+# Disclaimers
+- We are a peer support group. We do not offer any professional mental or therapeutic services
+- We expect men to work with local community professionals for therapeutic support.
+- This group is not a good fit for men who are actively engaged in domestic violence, alcoholism, recreational drug use, or experiencing suicidal ideation.
