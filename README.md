@@ -43,6 +43,10 @@ _data.
 2. Change the string inside of _data in the yml file you found it in
 3. run the site locally and see the string change.
 
+### Excluding a file from the site
+1. If you have something in static/ just move it into static/exclude. These are assets that are not used in the site, but could be used
+in the future.
+
 ## Beware
 
 Jekyll sites are essentially just frontend code which means the user will download nearly all assets of the site itself. Everything
