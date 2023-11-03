@@ -2,7 +2,7 @@ layouts_dir: ./_layouts
 title: Mankind Project Japan
 description: Mankind Project Japan Website v2.
 exclude: [
-  static/exclude, 
+  exclude/, 
   Gemfile,
   Gemfile.lock,
   LICENSE,
