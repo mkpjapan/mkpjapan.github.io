@@ -23,3 +23,37 @@ themselves.
 For lists which are repeated, they fall into either a subfolder or their own yml file (like testimonials / faqs) to allow
 changing them to be separate. Things in #_includes are essentially skeletons which just read string data from the yml files under
 _data.
+
+## How to do things.
+
+### Removing a Section To the Landing Page (Home)
+1. Go to _layouts/home.html
+2. Remove the section you want
+3. If your section was part of nav.html go to _includes\nav.html and remove it from the list there.
+3. Push the change.
+
+### Adding a Section To the Landing Page (Home)
+1. Create your new section in _includes. Something like MyNewSection.html
+2. Write out your section
+3. In _layouts/home.html include it like the other sections in the order you want it to appear in.
+4. In nav.html, add your section to the header (or not)
+
+### How to change a string
+1. You can search for the string by just searching _data for the string you're looking for
+2. Change the string inside of _data in the yml file you found it in
+3. run the site locally and see the string change.
+
+## Beware
+
+Jekyll sites are essentially just frontend code which means the user will download nearly all assets of the site itself. Everything
+in the _site folder is directly downloaded to the user's machine. This means:
+
+1. All jpegs which didn't come from an online source must have their jpeg headers stripped to anonymize them
+2. Any face pics or identifying information must be scrutinized heavily before pushing it
+3. Scrub any strings in the repo for identifying information especially posts.
+
+### Other things
+
+Because Jekyll is wholly frontend code, use of php and ajax is essentially impossible (no back end to speak of). Due to that
+we can't use certain things like captchas or standard fullstack technology. We should consider getting a backend eventually
+even if it's just to keep posts on a server.

@@ -1,3 +1,12 @@
 layouts_dir: ./_layouts
 title: Mankind Project Japan
 description: Mankind Project Japan Website v2.
+exclude: [
+  static/images/github, 
+  static/images/trainers,
+  static/images/site/donate, 
+  Gemfile,
+  Gemfile.lock,
+  LICENSE,
+  README,
+  static/images/site/title/MKPJapan_horizontal.jpg]
