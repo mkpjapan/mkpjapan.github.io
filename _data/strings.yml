@@ -14,23 +14,30 @@ nav:
   join_title: Join
   donate_title: Donate
   agreements_title: Agreements
+  donate_url: https://www.paypal.com/paypalme/mkpjapan
 
 # Benefits
 benefits:
+  id: benefits
   title: What We Offer
   subtitle: We believe in building "better" men
   picture_date: Taken 2020, Tokyo
 
 # Join Section
 join:
+  id: join
   title: Sit in on our next group
   subtitle: No commitment, come sit in and see how you feel.
   button: Join
+  join_url: https://forms.gle/L64N8goVx42bHz7F7
 
 # Testimonials
 testimonials:
+  id: testimonials
   title: Testimonials
   subtitle: For confidentiality, some details are omitted
 
+# FAQ
 faqs:
+  id: faqs
   title: FAQs

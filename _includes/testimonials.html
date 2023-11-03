@@ -1,37 +1,60 @@
 {% assign s = site.data.strings[page.testimonials_section] %}
 
-<section id="testimonials">
+<section id="{{ s.id }}">
+    <style>
+        .slick-dots {
+            bottom: initial!important;
+            text-align: left;
+            margin-left: 25px;
+            margin-top: 10px;
+        }
+
+        .carousel-arrows {
+            text-align: right;
+            font-size: x-large;
+            margin-top: -30px;
+            margin-right: 25px;
+            z-index: 2;
+            transform-style: preserve-3d;
+        }
+
+        .carousel-arrows span:hover{
+            color: #{{site.data.template.color.primary}};
+        }
+
+        .slick-track {
+            display: flex !important;
+        }
+
+        .slick-slide {
+            height: inherit !important;
+        }
+
+        .slick-list {
+            padding:0 35% 0 0 !important;
+        }
+
+    </style>
     <div class="col-md-12">
         <h2 class="section-heading text-center">{{ s.title }}</h2>
         <h3 class="section-subheading text-muted text-center">{{ s.subtitle }}</h3>
     </div>
 
-    <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#testimonials-carousel" data-slide-to="0" class="active"></li>
-            <li data-target="#testimonials-carousel" data-slide-to="1"></li>
-            <li data-target="#testimonials-carousel" data-slide-to="2"></li>
-        </ol>
-
     <div class="testimonials-carousel">
         {% for t in site.data.testimonials %}
-        <div>
-            <div class="testimonial">
-                <h4>{{ t.username }}</h4>
-                <p>{{ t.testimonial }}</p>
-                <div class="source">
-                    <span>{{ t.location }}</span>
-                </div>
-            </div>
+        <div class="testimonial">
+            <span class="top border"></span>
+            <p>{{ t.testimonial }}</p>
+            <p class="source">
+                {{t.username}} &mdash; {{ t.location }}
+            </p>
+            <span class="bottom border"></span>
         </div>
         {% endfor %}
     </div>
-</section>
-
-    <div style="text-align:right;margin-right:25px;margin-top:25;">
-        <span class="prev glyphicon glyphicon-chevron-left"></span>
-        <span class="next glyphicon glyphicon-chevron-right"></span>
+    <div class="carousel-arrows">
+        <span class="prev fa-solid fa-chevron-circle-left"></span>
+        <span class="next fa-solid fa-chevron-circle-right"></span>
     </div>
 
     <script src="{{ '/static/js/jquery-1.11.0.js' | prepend: site.baseurl }}"></script>
@@ -42,30 +65,25 @@
         centerMode: true,
         dots:true,
         centerPadding: '60px',
-        slidesToShow: 2,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay:true,
         autoplaySpeed:2000,
         prevArrow: $('.prev'),
         nextArrow: $('.next'),
-        appendDots:$('.dots'),
         responsive: [
             {
             breakpoint: 768,
             settings: {
-                arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 3
             }
             },
             {
             breakpoint: 480,
             settings: {
-                arrows: false,
                 centerMode: true,
                 centerPadding: '40px',
-                slidesToShow: 1
             }
             }
         ]

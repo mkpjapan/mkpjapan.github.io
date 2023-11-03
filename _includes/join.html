@@ -1,11 +1,11 @@
 {% assign s = site.data.strings[page.join_section] %}
 
-<section id="{{ page.join_section }}">
+<section id="{{ s.id }}">
     <div class="row">
         <section class="join-container has-background-dark">
             <h2 class="section-heading">{{ s.title }}</h2>
             <h3 class="section-subheading">{{ s.subtitle }}</h3>
-            <a href="https://forms.gle/L64N8goVx42bHz7F7" class="btn btn-xl mx-auto" style="margin:5px">{{ s.button }}</a>
+            <a href="{{ s.join_url }}" class="btn btn-xl mx-auto" style="margin:5px">{{ s.button }}</a>
         </section>
     </div>
 </section>

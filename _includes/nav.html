@@ -1,4 +1,4 @@
-{% assign s = site.data.strings[page.nav_section] %}
+{% assign s = site.data.strings['nav'] %}
     <nav class="navbar navbar-default navbar-fixed-top {{ page.navbarClass }}">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -31,8 +31,7 @@
                         <a href="{{ '/agreements' | prepend: site.baseurl }}">{{s.agreements_title}}</a>
                     </li>
                     <li>
-                        <a href="https://www.paypal.com/paypalme/mkpjapan" target="_blank">{{s.donate_title}}
-                        </a>
+                        <a href="{{ s.donate_url }}" target="_blank">{{s.donate_title}}</a>
                     </li>
                 </ul>
             </div>

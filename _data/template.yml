@@ -4,7 +4,8 @@ color:
   secondary: fec503
   secondary-dark: 333
   muted: 777
-  tertiary: 1f396d
+  mkpyellow: fed136
+  mkpblue: 1f396d
 
 # Font Families
 font:
