@@ -57,3 +57,7 @@ in the _site folder is directly downloaded to the user's machine. This means:
 Because Jekyll is wholly frontend code, use of php and ajax is essentially impossible (no back end to speak of). Due to that
 we can't use certain things like captchas or standard fullstack technology. We should consider getting a backend eventually
 even if it's just to keep posts on a server.
+
+Because _site is essentially downloaded onto a client's device the smaller the _site folder is the faster it will be so be
+judicious about what you put into it. Ultimately we do need to support slower speed internet if there are people who are
+interested from abroad.
