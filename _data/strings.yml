@@ -1,9 +1,9 @@
 # Header section
 header:
   long_mission: "To create a world where men act on their individual 
-                 and shared responsibility for the future of humanity. we do 
+                 and shared responsibility for the future of humanity. We do 
                  this by initiate and support men on a path of emotional maturity,
-                 spiritual awareness, and deepening community"
+                 spiritual awareness, and deepening community."
   short_mission: Create a world where men act on their individual and shared responsibility for the future of humanity.
   join_button: Join Our Online Group!
   meeting_date: First Tuesday of the Month, 7pm JST
@@ -20,13 +20,13 @@ nav:
 benefits:
   id: benefits
   title: What We Offer
-  subtitle: We believe in building "better" men
+  subtitle: We believe in building better men
   picture_date: Taken 2020, Tokyo
 
 # Join Section
 join:
   id: join
-  title: Sit in on our next group
+  title: Attend our next group
   subtitle: No commitment, come sit in and see how you feel.
   button: Join
   join_url: https://forms.gle/L64N8goVx42bHz7F7
