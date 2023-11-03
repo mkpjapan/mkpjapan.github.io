@@ -1,19 +1,16 @@
     <!-- Header -->
+    {% assign s = site.data.strings[page.header_section] %}
     <header>
         <div class="container">
             <div class="row">
             <div class="intro-text col-md-6">
                 <div class="intro-heading">
-                    <div class="hidden-xs">To <b>create a world</b> where men act on their <b>individual and shared responsibility</b>
-                        for the future of humanity. we do this by <b>initiate and support men</b> on a path of <b>emotional maturity,
-                            spiritual awareness, and deepening community</b>
-                    </div>
-                    <div class="visible-xs"><b>Create a world</b> where men act on their <b>individual and shared responsibility</b>
-                        for the future of humanity.
-                    </div>
+                    <div class="hidden-xs">{{ s.long_mission }}</div>
+                    <div class="visible-xs">{{ s.short_mission }}</div>
                 </div>
-                <a href="{{ '/#join' | prepend: site.baseurl }}" class="page-scroll btn btn-xl" style="margin:5px">Join Our Online Group!</a>
-                <div class="intro-subtext">First Tuesday of the Month, 7pm JST</div>
+                <a href="{{ '/#join' | prepend: site.baseurl }}" class="page-scroll btn btn-xl" style="margin:5px">
+                    {{ s.join_button }}</a>
+                <div class="intro-subtext">{{s.meeting_date}}</div>
             </div>
         </div>
     </header>

@@ -1,3 +1,4 @@
+{% assign s = site.data.strings[page.nav_section] %}
     <nav class="navbar navbar-default navbar-fixed-top {{ page.navbarClass }}">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -21,16 +22,16 @@
                         <a href="{{ '/#page-top' | prepend: site.baseurl }}"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ '/#benefits' | prepend: site.baseurl}}">About</a>
+                        <a class="page-scroll" href="{{ '/#benefits' | prepend: site.baseurl}}">{{s.about_title}}</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="{{ '/#join' | prepend: site.baseurl}}">Join</a>
+                        <a class="page-scroll" href="{{ '/#join' | prepend: site.baseurl}}">{{s.join_title}}</a>
                     </li>
                     <li>
-                        <a href="{{ '/agreements' | prepend: site.baseurl }}">Agreements</a>
+                        <a href="{{ '/agreements' | prepend: site.baseurl }}">{{s.agreements_title}}</a>
                     </li>
                     <li>
-                        <a href="https://www.paypal.com/paypalme/mkpjapan" target="_blank">Donate
+                        <a href="https://www.paypal.com/paypalme/mkpjapan" target="_blank">{{s.donate_title}}
                         </a>
                     </li>
                 </ul>

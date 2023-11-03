@@ -1,8 +1,9 @@
+{% assign s = site.data.strings[page.faqs_section] %}
 <section id="faqs">
     <div class="container">
-        <h2 class="section-heading text-center">FAQs</h2>
+        <h2 class="section-heading text-center">{{s.title}}</h2>
         <div class="row">
-            {% for faq in page.faqs %}
+            {% for faq in site.data.faqs %}
                 <div class="card">
                     <div class="container">
                         <h4>{{ faq.q }}</h4>

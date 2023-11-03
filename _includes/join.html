@@ -1,13 +1,11 @@
-<section id="join">
+{% assign s = site.data.strings[page.join_section] %}
+
+<section id="{{ page.join_section }}">
     <div class="row">
         <section class="join-container has-background-dark">
-            <h2 class="section-heading">
-                Sit in on our next group
-            </h2>
-            <h3 class="section-subheading">
-                No commitment, come sit in and see how you feel.
-            </h3>
-            <a href="https://forms.gle/L64N8goVx42bHz7F7" class="btn btn-xl mx-auto" style="margin:5px">Join</a>
+            <h2 class="section-heading">{{ s.title }}</h2>
+            <h3 class="section-subheading">{{ s.subtitle }}</h3>
+            <a href="https://forms.gle/L64N8goVx42bHz7F7" class="btn btn-xl mx-auto" style="margin:5px">{{ s.button }}</a>
         </section>
     </div>
 </section>

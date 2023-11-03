@@ -1,7 +1,9 @@
+{% assign s = site.data.strings[page.testimonials_section] %}
+
 <section id="testimonials">
     <div class="col-md-12">
-        <h2 class="section-heading text-center">Testimonials</h2>
-        <h3 class="section-subheading text-muted text-center">For confidentiality, some details are omitted</h3>
+        <h2 class="section-heading text-center">{{ s.title }}</h2>
+        <h3 class="section-subheading text-muted text-center">{{ s.subtitle }}</h3>
     </div>
 
     <div id="testimonials-carousel" class="carousel slide" data-ride="carousel">
@@ -13,45 +15,17 @@
         </ol>
 
     <div class="testimonials-carousel">
+        {% for t in site.data.testimonials %}
         <div>
             <div class="testimonial">
-                <h4>Testimonial</h4>
-                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
+                <h4>{{ t.username }}</h4>
+                <p>{{ t.testimonial }}</p>
                 <div class="source">
-                    <span>Testimonial Source</span>
+                    <span>{{ t.location }}</span>
                 </div>
             </div>
         </div>
-
-        <div>
-            <div class="testimonial">
-                <h4>Testimonial</h4>
-                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                <div class="source">
-                    <span>Testimonial Source</span>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="testimonial">
-                <h4>Testimonial</h4>
-                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                <div class="source">
-                    <span>Testimonial Source</span>
-                </div>
-            </div>
-        </div>
-
-        <div>
-            <div class="testimonial">
-                <h4>Testimonial</h4>
-                <p>This is some testimonial text for this month's CodePen challenge! This is some testimonial text for this month's CodePen challenge!</p>
-                <div class="source">
-                    <span>Testimonial Source</span>
-                </div>
-            </div>
-        </div>
+        {% endfor %}
     </div>
 </section>
 

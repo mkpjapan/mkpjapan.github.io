@@ -1,44 +1,30 @@
-<section id="benefits">
+{% assign s = site.data.strings[page.benefits_section] %}
+<section id="{{ page.benefits_section }}">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h2 class="section-heading text-center">What We Offer</h2>
-                <h3 class="section-subheading text-muted text-center">We believe in building "better" men</h3>
+                <h2 class="section-heading text-center">{{ s.title  }}</h2>
+                <h3 class="section-subheading text-muted text-center">{{ s.subtitle }}</h3>
             </div>
             <div class="col-md-6">
+                {% for benefit_hash in site.data.benefits %}
+                {% assign benefit = benefit_hash[1] %}
                 <div class="benefit">
                     <h3>
-                        <i>🤗</i> Support and Connection
+                        <i>{{ benefit.icon }}</i> {{ benefit.title }}
                     </h3>
                     <ul>
-                        <li>You are <b>heard and respected</b>. Everyone listens to your words. What you say is confidential.</li>
-                        <li>You are <b>valued</b> and <b>respected</b>by a circle of men who help each other in realizing their dreams.</li>
+                        {% for statement in benefit.benefits %}
+                        <li>{{ statement.benefit }}</li>
+                        {% endfor %}
                     </ul>
                 </div>
-                <div class="benefit">
-                    <h3>
-                        <i>🌱</i> Growth and Belonging
-                    </h3>
-                    <ul>
-                        <li><b>Break free</b> from <b>limiting and sabotaging beliefs</b>.</li>
-                        <li><b>Find brotherhood</b> and <b>insight</b>.</li>
-                        <li>Access your <b>inner leader</b>.</li>
-                    </ul>
-                </div>
-                <div class="benefit">
-                    <h3>
-                        <i>🏡</i> Leadership and Accountability
-                    </h3>
-                    <ul>
-                        <li>Men <b>remind</b> you of your <b>commitments</b> without judgment.</li>
-                        <li>Men <b>hold you accountable</b> and keep you focused on your goals.</li>
-                    </ul>
-                </div>
+                {% endfor %}
             </div>
             <div class="col-md-6 text-center">
                 <div class="benefits-img-container">
                     <img src="/static/images/site/mencirclehands.png" class="benefits-img" alt="a circle of hands, taken 2020 Tokyo" />
-                    <div class="benefits-img-text">Taken 2020, Tokyo</div>
+                    <div class="benefits-img-text">{{ s.picture_date }}</div>
                 </div>
                 <br/>
             </div>

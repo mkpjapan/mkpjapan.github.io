@@ -1,0 +1,17 @@
+- username: S
+  location: Tokyo / Los Angeles
+  testimonial: "This group has given me a place to show up and be heard. Honestly, that's what I need. I know that 
+  good days or bad days, I'll always have a place where I feel respected and dignified."
+
+- username: J
+  location: Tokyo
+  testimonial: "This group has helped me face some difficult decisions in my life and has helped me wake up to 
+  confront myself about what I really want in life."
+
+- username: Foo
+  location: Tokyo
+  testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+  nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+  culpa qui officia deserunt mollit anim id est laborum."
