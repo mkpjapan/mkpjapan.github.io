@@ -2,12 +2,6 @@
 linktitle: Welcome
 layout: home
 navbarClass: 'navbar-shrinkable'
-header_section: header
-benefits_section: benefits
-join_section: join
-nav_section: nav
-testimonials_section: testimonials
-faqs_section: faqs
 ---
 
 # Imagine
