@@ -10,6 +10,7 @@
         }
 
         .carousel-arrows {
+            position: relative;
             text-align: right;
             font-size: x-large;
             margin-top: -30px;
@@ -19,7 +20,7 @@
         }
 
         .carousel-arrows span:hover{
-            color: #{{site.data.template.color.mkpyellow}};
+            color: #{{site.data.template.color.mkpYellow}};
         }
 
         .slick-track {
@@ -53,8 +54,8 @@
         {% endfor %}
     </div>
     <div class="carousel-arrows">
-        <span class="prev fa-solid fa-chevron-circle-left"></span>
-        <span class="next fa-solid fa-chevron-circle-right"></span>
+        <span class="prev fa-regular fa-circle-left"></span>
+        <span class="prev fa-regular fa-circle-right"></span>
     </div>
 
     <script src="{{ '/static/js/jquery-1.11.0.js' | prepend: site.baseurl }}"></script>
