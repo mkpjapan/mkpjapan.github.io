@@ -8,9 +8,11 @@
                     <div class="hidden-xs">{{ s.long_mission }}</div>
                     <div class="visible-xs">{{ s.short_mission }}</div>
                 </div>
-                <a href="{{ '/#join' | prepend: site.baseurl }}" class="page-scroll btn btn-xl" style="margin:5px">
-                    {{ s.join_button }}</a>
-                <div class="intro-subtext">{{s.meeting_date}}</div>
+                <div class="button-container">
+                    <a href="{{ '/#join' | prepend: site.baseurl }}" class="page-scroll btn btn-xl">
+                        {{ s.join_button }}</a>
+                    <div class="intro-subtext">{{s.meeting_date}}</div>
+                </div>
             </div>
         </div>
     </header>
