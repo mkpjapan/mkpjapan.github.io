@@ -8,10 +8,6 @@ footer {
 	}
 }
 
-.join-text {
-    width:100%;
-}
-
 /* For small screens we want less padding-top in the pic as it looks like a large empty space.*/
 header .intro-text {
 	padding-top: 100px;
@@ -24,10 +20,11 @@ header .intro-text {
     }
 }
 
-header .button-container {
-    margin-top: 20px;
+.button-container {
+    margin-top: 40px;
 }
 
+/* For larger screens 200px mostly centers the text.*/
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 200px;
@@ -121,20 +118,6 @@ section {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-}
-
-/* This is here to manage small screens by giving the text a small margin on each side. Firefox users
-will otherwise see the text span the entire width of the screen and it looks off. */
-#join {
-    h2 {
-        margin: 0 5%;
-        width: 90%;
-    }
-
-    h3 {
-        margin: 0 5%;
-        width: 90%;
-    } 
 }
 
 img.hover-shadow {
