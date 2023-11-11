@@ -25,7 +25,6 @@ join:
   title: Attend our next group
   subtitle: No commitment, come sit in and see how you feel.
   button: Join
-  join_url: https://forms.gle/L64N8goVx42bHz7F7
 
 # Testimonials
 testimonials:
@@ -39,3 +38,6 @@ faqs:
   title: FAQs
   subtitle: Find answers to frequently asked questions
 
+form:
+  id: form
+  join_url: https://forms.gle/L64N8goVx42bHz7F7?embedded=true

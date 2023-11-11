@@ -5,7 +5,7 @@
             <h2 class="section-heading">{{ s.title }}</h2>
             <h3 class="section-subheading">{{ s.subtitle }}</h3>
             <div class="button-container">
-                <a href="{{ s.join_url }}" class="btn btn-xl mx-auto">{{ s.button }}</a>
+                <a href="{{ '/form' | prepend: site.baseurl }}" class="btn btn-xl mx-auto">{{ s.button }}</a>
             </div>
         </section>
     </div>
