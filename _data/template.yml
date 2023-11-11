@@ -6,6 +6,7 @@ color:
   muted: 777
   mkpYellow: fed136
   mkpBlue: 1f396d
+  lightGray: f3f3f3
 
 # Font Families
 font:
