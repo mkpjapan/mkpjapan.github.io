@@ -24,5 +24,7 @@
     <div id="spinner" class="spinner">
         <div class="loader"></div>
     </div>
-    <iframe src="{{ s.join_url }}" width="100%" height="3200px" frameborder="0" marginheight="0" marginwidth="0" onload="document.getElementById('spinner').style.display='none';">Loading…</iframe>
+    <iframe src="{{ s.join_url }}" width="100%" height="3200px" frameborder="0" marginheight="0"
+            marginwidth="0" onload="document.getElementById('spinner').style.display='none';"
+            style="z-index: 2; transform-style: preserve-3d;">Loading…</iframe>
 </section>
