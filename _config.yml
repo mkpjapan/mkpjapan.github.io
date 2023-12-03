@@ -1,6 +1,10 @@
 layouts_dir: ./_layouts
 title: ManKind Project Japan
 description: We believe in building better men
+plugins:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 exclude: [
   exclude/, 
   Gemfile,
