@@ -41,14 +41,12 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.tertiary }};
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.tertiary }};
 }
 
 h1,
@@ -176,7 +174,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #{{ site.data.template.color.tertiary }};
+    background-color: #{{ site.data.template.color.mkpBlue }};
 }
 
 .navbar-default .navbar-brand {
@@ -203,8 +201,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.tertiary }};
-    background-color: #{{ site.data.template.color.tertiary }};
+    border-color: #{{ site.data.template.color.mkpYellow }};
+    background-color: #{{ site.data.template.color.mkpYellow }};
 }
 
 .navbar-default .navbar-toggle .icon-bar {
