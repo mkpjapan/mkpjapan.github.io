@@ -17,7 +17,7 @@ Accountability * Authenticity * Compassion * Generosity * Integrity * Intercultu
 
 What I say and do here is confidential. I will only share my own experience and personal insights. I will not share another man’s words, actions, or identity outside this group. If I wish to mention anything specific a man shared in a previous meeting, I will ask his permission first.
 
-Confidentiality is there to create a sense of safety for all. Confidentiality does not apply in situations of abuse or neglect of children and the elderly and/or threat to harm self or others. If someone’s life is in immediate danger, action may be required.
+Confidentiality is there to create a sense of safety for all. Confidentiality does not apply in situations of abuse or neglect of children or the elderly, or threat to harm self or others. If someone’s life is in immediate danger, action may be required.
 
 ### No recording
 
@@ -57,7 +57,7 @@ I will ask permission before offering feedback. Feedback reflects what I heard/s
 
 ### Safety
 
-Safety is everyone's responsibility. Any man may pass at any time or stop or pause any process to maintain safety.
+Safety is everyone's responsibility. Any man may pass at any time to stop or pause any process to maintain safety.
 
 Checking out
 I will check out before hanging up. I understand men could be concerned for my welfare, and I will respond if someone contacts me. If I fail to do so or exhibit concerning behaviour, someone from MKP Japan may contact my emergency contact or emergency services.
