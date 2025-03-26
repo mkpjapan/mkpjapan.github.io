@@ -16,7 +16,7 @@ I moved to Japan in 2003 and looked for Mankind Project, but there were no other
 
 After getting married, I realized I needed the support of a men's circle, so I restarted our circle in 2015.  We were 3 MKP men, including [Japanese psychiatrist Takeshi Tamura](https://www.tamuratakeshi.jp/about.php).  In 2015, we began to invite new men into the circle, even if they had not attended the New Warrior Training Adventure.
 
-We meet every Tuesday, ~~in Takeshi's office in Hiroo, Tokyo~~.   
+We meet every Tuesday, ~~in Takeshi's office in Hiroo, Tokyo~~.
 [Register to join us online](/open-mens-group/).
 
 The meetings are in English for now, but the translation work I mentioned should be done within a month or two.  I imagine we could present an introductory training in Japanese this year, but we have not yet talked about who could lead a Japanese language circle afterward.

@@ -8,7 +8,7 @@ draft: false
 
 Today, men in our circle have decided that the wisest course of action
 is to meet online via Zoom.
- 
+
 The WHO declaration of pandemic issued on March 11, the rapidly
 changing landscape of major events and gatherings being postponed or
 canceled, and engagement with local authorities and medical experts
