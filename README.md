@@ -1,6 +1,6 @@
 # website for ManKind Project Japan
 
-New site for ManKind Project Japan, currently at https://mkpjapan.github.io/
+New site for ManKind Project Japan, currently at https://mkpjapan.org/
 
 ## Requirements
 Setup Jekyll based on github pages:
