@@ -19,13 +19,6 @@ header .intro-text {
     .intro-subtext {
         font-family: {{ site.data.template.font.secondary }};
     }
-    h2 {
-    	width: auto;
-    	color: #{{site.data.template.color.mkpYellow}};
-    	padding: 0;
-    	margin: 0;
-    	line-height: 1;
-    }
 }
 
 .button-container {
