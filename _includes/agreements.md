@@ -1,3 +1,4 @@
+
 # Agreements
 
 ### Mission and Purpose
@@ -40,7 +41,8 @@ No solicitations. This is not a business group, dating group or a place to push 
 ### Non-Violence
 
 I will refrain from violence, including physical, verbal, emotional, or spiritual. I take responsibility for my words and actions and acknowledge that they impact those around me.
-No Drugs or Alcohol
+
+### No Drugs or Alcohol
 
 I will not attend the group while under the influence of alcohol or recreational drugs. If I break this agreement, I will tell the group and accept the group's choice in handling this to maintain a safe space for the men present.
 
