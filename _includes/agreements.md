@@ -1,4 +1,3 @@
-
 # Agreements
 
 ### Mission and Purpose
@@ -10,14 +9,20 @@ The purpose of the ManKind Project is to create a safer world by growing “bett
 Our vision is a safe world where all men are brothers, in relationship with one another… a world where conflicts are resolved peacefully; where torture, genocide, domestic violence, and senseless war are only entries in the history books… where men are fully accountable and take responsibility for their decisions… where men stand tall and proud to be men, secure in their role and deeply committed to nurturing one another, their families, their communities, and their planet.
 
 ### Our Core Values
-
-Accountability * Authenticity * Compassion * Generosity * Integrity * Intercultural Competency * Leadership * Respect
+- Accountability
+- Authenticity
+- Compassion
+- Generosity
+- Integrity
+- Intercultural Competency
+- Leadership
+- Respect
 
 ### Confidentiality
 
-What I say and do here is confidential. I will only share my own experience and personal insights. I will not share another man’s words, actions, or identity outside this group. If I wish to mention anything specific a man shared in a previous meeting, I will ask his permission first.
+What I say and do here is confidential. I will only share my own experience and personal insights. I will not share another man's words, actions, or identity outside this group. If I wish to mention anything specific a man shared in a previous meeting, I will ask his permission first.
 
-Confidentiality is intended to create a sense of safety for all. Confidentiality does not apply in situations of abuse or neglect of children or the elderly, or threat to harm self or others. If someone’s life is in immediate danger, action may be required.
+Confidentiality is intended to create a sense of safety for all. Confidentiality does not apply in situations of abuse or neglect of children or the elderly, or threat to harm self or others. If someone's life is in immediate danger, action may be required.
 
 ### No recording
 
@@ -33,7 +38,7 @@ No solicitations. This is not a business group, dating group or a place to push 
 
 ### Non-Violence
 
-I will refrain from violence, whether physical, verbal, emotional, or spiritual. I take responsibility for my words and actions and acknowledge that they impact those around me.
+I will refrain from violence, including physical, verbal, emotional, or spiritual. I take responsibility for my words and actions and acknowledge that they impact those around me.
 
 ### No Drugs or Alcohol
 
@@ -41,7 +46,7 @@ I will not attend the group while under the influence of alcohol or recreational
 
 ### Participation
 
-I will speak openly and truthfully in "I" statements (not "you" or "he" statements).
+When speaking about myself, I will endeavor to speak openly and truthfully in “I” statements (not “you” or “he” statements).
 
 I will not interrupt verbally - but instead, use hand gestures to signify resonance or ask a question. Exceptions are for facilitation, timekeeping or maintaining safety.
 
@@ -57,11 +62,11 @@ I will ask permission before offering feedback. Feedback reflects what I heard/s
 
 ### Safety
 
-Safety is everyone's responsibility. Any man may pass at any time to stop or pause any process to maintain safety.
+Safety is everyone's responsibility. Any man may pass or stop his own facilitation process at any time. Any man may say "safety" to pause a process so that its safety may be assessed.
 
 ### Checking out
 
-I will check out before hanging up. I understand men could be concerned for my welfare, and I will respond if someone contacts me. If I fail to do so or exhibit concerning behaviour, someone from MKP Japan may contact my emergency contact or emergency services.
+I will check out before hanging up. I understand men could be concerned for my welfare, and I will respond if someone contacts me. 
 
 ### Online Etiquette
 
@@ -70,8 +75,7 @@ I will check out before hanging up. I understand men could be concerned for my w
 - I will mute myself when I'm not talking.
 - I will be fully present and not multitask. (e.g. not browsing the web or checking my phone during the meeting.)
 - I will refrain from eating during the meeting.
-- If my internet drops, I will contact the organisers using the information provided to me.
-- I will always pay attention to the screen in case someone is trying to communicate with me.
+- If my internet connection drops, I will contact the organisers using the information provided to me.
 
 ### Acknowledgement & Commitment
 
