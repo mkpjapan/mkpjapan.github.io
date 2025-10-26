@@ -7,7 +7,7 @@ The purpose of the ManKind Project is to create a safer world by growing "better
 
 ### Our Vision
 
-Our vision is a safe world where all men are brothers, in relationship with one another. A world where conflicts are resolved peacefully; where torture, genocide, domestic violence, and senseless war are only entries in the history books. Where men are fully accountable and take responsibility for their decisions. Where men stand tall and proud to be men, secure in their role and deeply committed to nurturing one another, their families, their communities, and their planet.
+Our vision is a safe world where all men are brothers, in relationship with one another. A world where conflicts are resolved peacefully; where torture, genocide, domestic violence, and senseless war are only entries in the history books... where men are fully accountable and take responsibility for their decisions... where men stand tall and proud to be men, secure in their role and deeply committed to nurturing one another, their families, their communities, and their planet.
 
 ### Our Core Values
 
