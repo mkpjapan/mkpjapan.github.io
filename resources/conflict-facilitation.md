@@ -1,6 +1,5 @@
 ---
 layout: single
-navbarClass: 'navbar-shrink'
 title: Conflict Facilitation
 ---
 
