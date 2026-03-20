@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Conflict Resolution
+permalink: /resources/conflict-resolution/
 ---
 
 # Conflict Resolution

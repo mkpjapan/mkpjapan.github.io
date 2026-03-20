@@ -1,6 +1,7 @@
 ---
 layout: single
 title: Conflict Facilitation
+permalink: /resources/conflict-facilitation/
 ---
 
 # Conflict Facilitation
